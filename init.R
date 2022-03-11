@@ -9,5 +9,5 @@ options(repos=r)
 # ======================================================================
 
 # packages go here
-install.packages(c('dash', 'readr', 'here', 'ggthemes', 'remotes', 'plotly', 'ggplot2', 'dplyr', 'tidyr'))
+install.packages(c('dash', 'readr', 'here', 'ggthemes', 'remotes', 'plotly', 'ggplot2', 'dplyr', 'tidyr', 'dashHtmlComponents'))
 remotes::install_github('facultyai/dash-bootstrap-components@r-release')
